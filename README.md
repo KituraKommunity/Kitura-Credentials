@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://kitura.io/">
-        <img src="https://raw.githubusercontent.com/IBM-Swift/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
+        <img src="https://raw.githubusercontent.com/KituraKommunity/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
     </a>
 </p>
 
@@ -8,8 +8,8 @@
     <a href="https://ibm-swift.github.io/Kitura-Credentials/index.html">
         <img src="https://img.shields.io/badge/apidoc-KituraCredentials-1FBCE4.svg?style=flat" alt="APIDoc">
     </a>
-    <a href="https://travis-ci.org/IBM-Swift/Kitura-Credentials">
-    <img src="https://travis-ci.org/IBM-Swift/Kitura-Credentials.svg?branch=master" alt="Build Status - Master">
+    <a href="https://travis-ci.org/KituraKommunity/Kitura-Credentials">
+    <img src="https://travis-ci.org/KituraKommunity/Kitura-Credentials.svg?branch=master" alt="Build Status - Master">
     </a>
     <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" alt="macOS">
     <img src="https://img.shields.io/badge/os-linux-green.svg?style=flat" alt="Linux">
@@ -49,10 +49,10 @@ The latest version of Kitura-Credentials requires **Swift 4.0** or newer. You ca
 
 #### Add dependencies
 
-Add the `Kitura-Credentials` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `Kitura-Credentials` [release](https://github.com/IBM-Swift/Kitura-Credentials/releases).
+Add the `Kitura-Credentials` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `Kitura-Credentials` [release](https://github.com/KituraKommunity/Kitura-Credentials/releases).
 
 ```swift
-.package(url: "https://github.com/IBM-Swift/Kitura-Credentials.git", from: "x.x.x")
+.package(url: "https://github.com/KituraKommunity/Kitura-Credentials.git", from: "x.x.x")
 ```
 
 Add `Credentials` to your target's dependencies:
@@ -105,11 +105,11 @@ router.get("/multiauth") { (userProfile: MultiAuthedUser, respondWith: (MultiAut
 
 ### Raw routing
 
-For an OAuth2 Authorization Code flow authentication example please see [Kitura-Sample](https://github.com/IBM-Swift/Kitura-Sample).
+For an OAuth2 Authorization Code flow authentication example please see [Kitura-Sample](https://github.com/KituraKommunity/Kitura-Sample).
 <br>
 
 
-The following is an example of  token-based authentication using Facebook OAuth2 access tokens.This example authenticates post requests using [CredentialsFacebookToken](https://github.com/IBM-Swift/Kitura-CredentialsFacebook) plugin.
+The following is an example of  token-based authentication using Facebook OAuth2 access tokens.This example authenticates post requests using [CredentialsFacebookToken](https://github.com/KituraKommunity/Kitura-CredentialsFacebook) plugin.
 
 First create an instance of `Credentials` and an instance of credentials plugin:
 
@@ -146,14 +146,14 @@ router.post("/collection/:new") {request, response, next in
 
 ## List of plugins:
 
-* [JWT authentication](https://github.com/IBM-Swift/Kitura-CredentialsJWT)
-* [Facebook OAuth2 Authorization Code flow login](https://github.com/IBM-Swift/Kitura-CredentialsFacebook)
-* [Facebook OAuth2 token](https://github.com/IBM-Swift/Kitura-CredentialsFacebook)
-* [GitHub OAuth2 Authorization Code flow login](https://github.com/IBM-Swift/Kitura-CredentialsGitHub)
-* [Google OAuth2 Authorization Code flow login](https://github.com/IBM-Swift/Kitura-CredentialsGoogle)
-* [Google OAuth2 token](https://github.com/IBM-Swift/Kitura-CredentialsGoogle)
-* [HTTP Basic authentication](https://github.com/IBM-Swift/Kitura-CredentialsHTTP)
-* [HTTP Digest authentication](https://github.com/IBM-Swift/Kitura-CredentialsHTTP)
+* [JWT authentication](https://github.com/KituraKommunity/Kitura-CredentialsJWT)
+* [Facebook OAuth2 Authorization Code flow login](https://github.com/KituraKommunity/Kitura-CredentialsFacebook)
+* [Facebook OAuth2 token](https://github.com/KituraKommunity/Kitura-CredentialsFacebook)
+* [GitHub OAuth2 Authorization Code flow login](https://github.com/KituraKommunity/Kitura-CredentialsGitHub)
+* [Google OAuth2 Authorization Code flow login](https://github.com/KituraKommunity/Kitura-CredentialsGoogle)
+* [Google OAuth2 token](https://github.com/KituraKommunity/Kitura-CredentialsGoogle)
+* [HTTP Basic authentication](https://github.com/KituraKommunity/Kitura-CredentialsHTTP)
+* [HTTP Digest authentication](https://github.com/KituraKommunity/Kitura-CredentialsHTTP)
 * [Twitter OAuth](https://github.com/jacobvanorder/Kitura-CredentialsTwitter) (Third-party implemented)
 * [Discord OAuth](https://github.com/123FLO321/Kitura-CredentialsDiscord) (Third-party implemented)
 * [Local authentication](https://github.com/NocturnalSolutions/Kitura-CredentialsLocal) (For credentials stored in e.g. a local database; third-party implemented)
@@ -167,4 +167,4 @@ For more information visit our [API reference](http://ibm-swift.github.io/Kitura
 We love to talk server-side Swift, and Kitura. Join our [Slack](http://swift-at-ibm-slack.mybluemix.net/) to meet the team!
 
 ## License
-This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/IBM-Swift/Kitura-Credentials/blob/master/LICENSE.txt).
+This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/KituraKommunity/Kitura-Credentials/blob/master/LICENSE.txt).
